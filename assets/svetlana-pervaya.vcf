@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:Первая;Светлана;;;
+FN;CHARSET=UTF-8:Светлана Первая
+X-PHONETIC-FIRST-NAME:Svetlana
+X-PHONETIC-LAST-NAME:Pervaya
+ORG:Fish Point Family Resort
+TITLE:Управляющая
+TEL;TYPE=CELL:+79161872020
+EMAIL;TYPE=WORK:s.pervaya@fishpointhotel.ru
+URL:https://fishpointhotel.ru
+URL;TYPE=Telegram:https://t.me/SvetlanaPervaya
+IMPP;X-SERVICE-TYPE=Telegram:tg://resolve?domain=SvetlanaPervaya
+URL;TYPE=MAX:https://max.ru/u/f9LHodD0cOKYxyiHcPyLxy0canTgkqOWYK69jPWOUKNuCp9mebqoV92u3Ek
+ADR;TYPE=WORK:;;дер. Бережки, здание «Дом фермера», 2;Подольск;Московская область;142184;Россия
+NOTE:Контакт после встречи на BEST RUSSIA 2026
+END:VCARD
