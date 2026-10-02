@@ -809,3 +809,46 @@ dialog::backdrop {
         transition: none
     }
 }
+
+#video-dialog {
+    width: min(92vw, 980px, calc(85dvh * 16 / 9));
+    height: auto;
+    max-height: 90dvh;
+    padding: 0;
+    border: 0;
+    border-radius: 12px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.45);
+}
+
+#hotel-video {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    min-height: 0;
+    max-height: none;
+    inset: 0;
+    margin: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: #000;
+}
+
+#video-dialog .close {
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#video-dialog[open] {
+    display: flex;
+}

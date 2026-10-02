@@ -20,3 +20,10 @@ document.getElementById('lead-form').addEventListener('submit', event => {
   window.location.href = `mailto:info@fishpointhotel.ru?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   showToast('Открываем готовое письмо. В рабочей версии заявка будет сразу поступать в CRM.');
 });
+
+const hotelVideo = document.getElementById('hotel-video');
+
+dialog.addEventListener('close', () => {
+  hotelVideo.pause();
+  hotelVideo.currentTime = 0;
+});
