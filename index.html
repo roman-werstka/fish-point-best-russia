@@ -31,10 +31,14 @@
         <h1>Приватный загородный отдых рядом с Москвой</h1>
         <p>43 коттеджа из финской сосны, русская баня на дровах, SPA, рыбалка и два ресторана в одной локации.</p>
       </div>
-      <button class="play" type="button" data-modal="video" aria-label="Посмотреть видео о Fish Point">
+      <button class="play" type="button" data-modal="video" data-video="1XMR-L4g2lqLPDPWa5ee0vWgphJjZfkGL"
+        aria-label="Посмотреть видео о Fish Point">
         <span>▶</span>
         <strong>Смотреть фильм</strong>
         <small>40–60 секунд</small>
+      </button>
+      <button class="play play-two" type="button" data-modal="video" data-video="108UtcBG2GN2mnhXeClGJS2oU4z9DbZoN">
+        Смотреть второй ролик
       </button>
     </section>
 
@@ -179,8 +183,21 @@
           <strong>English presentation</strong>
           <b>Download</b>
         </a>
-        <a href="assets/svetlana-pervaya.vcf" download><span>VCF</span><strong>Контакт
-            Светланы</strong><b>Сохранить</b></a>
+        <a href="assets/svetlana-pervaya.vcf" download>
+          <span>VCF</span>
+          <strong>Первая Светлана Николаевна</strong>
+          <b>Сохранить контакт</b>
+        </a>
+        <a href="assets/olesya-mitrofanova.vcf" download>
+          <span>VCF</span>
+          <strong>Митрофанова Олеся Анатольевна — руководитель банкетной службы</strong>
+          <b>Сохранить контакт</b>
+        </a>
+        <a href="assets/eva-shabaeva.vcf" download>
+          <span>VCF</span>
+          <strong>Botavikos — Шабаева Ева</strong>
+          <b>Сохранить контакт</b>
+        </a>
       </div>
     </section>
 
@@ -218,20 +235,10 @@
   </footer>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <!-- <dialog id="video-dialog">
-    <button class="close" type="button" aria-label="Закрыть">×</button>
-    <div class="video-placeholder"><span>▶</span>
-      <h2>Место для фильма Fish Point</h2>
-      <p>MP4 · Full HD · H.264 · 40–60 секунд</p>
-    </div>
-  </dialog> -->
   <dialog id="video-dialog">
     <button class="close" type="button" aria-label="Закрыть">×</button>
 
-    <video id="hotel-video" controls playsinline preload="none">
-      <source src="assets/videos/fish-point-main.mp4" type="video/mp4">
-      Ваш браузер не поддерживает видео.
-    </video>
+    <iframe id="hotel-video" title="Видео Fish Point" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </dialog>
   <script src="assets/app.js"></script>
   <script>(function () { function c() { var b = a.contentDocument || (a.contentWindow && a.contentWindow.document); if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'a42aebf78f468598',t:'MTc5MDY4NDIxNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>

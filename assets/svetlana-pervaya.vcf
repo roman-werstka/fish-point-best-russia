@@ -1,7 +1,7 @@
 BEGIN:VCARD
 VERSION:3.0
-N;CHARSET=UTF-8:Первая;Светлана;;;
-FN;CHARSET=UTF-8:Светлана Первая
+N:Первая;Светлана;Николаевна;;
+FN:Первая Светлана Николаевна
 X-PHONETIC-FIRST-NAME:Svetlana
 X-PHONETIC-LAST-NAME:Pervaya
 ORG:Fish Point Family Resort
