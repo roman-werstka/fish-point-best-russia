@@ -133,7 +133,7 @@ img {
 
 .play {
     position: absolute;
-    right: 6vw;
+    right: 17vw;
     bottom: 52px;
     border: 1px solid rgba(255, 255, 255, .6);
     border-radius: 50%;
@@ -148,6 +148,10 @@ img {
     justify-content: center;
     cursor: pointer;
     transition: .25s
+}
+
+.play-two {
+    right: 6vw;
 }
 
 .play:hover {
@@ -693,10 +697,14 @@ dialog::backdrop {
     }
 
     .play {
-        right: 20px;
+        right: 135px;
         bottom: 24px;
         width: 108px;
         height: 108px
+    }
+
+    .play-two {
+        right: 20px;
     }
 
     .actions {
@@ -822,7 +830,7 @@ dialog::backdrop {
     box-shadow: 0 20px 70px rgba(0, 0, 0, 0.45);
 }
 
-#hotel-video {
+/* #hotel-video {
     display: block;
     width: 100%;
     height: fit-content;
@@ -832,6 +840,14 @@ dialog::backdrop {
     margin: auto;
     aspect-ratio: 16 / 9;
     object-fit: contain;
+    background: #000;
+} */
+ #hotel-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
     background: #000;
 }
 
