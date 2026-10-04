@@ -830,18 +830,6 @@ dialog::backdrop {
     box-shadow: 0 20px 70px rgba(0, 0, 0, 0.45);
 }
 
-/* #hotel-video {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    min-height: 0;
-    max-height: none;
-    inset: 0;
-    margin: auto;
-    aspect-ratio: 16 / 9;
-    object-fit: contain;
-    background: #000;
-} */
  #hotel-video {
     display: block;
     width: 100%;
@@ -867,4 +855,150 @@ dialog::backdrop {
 
 #video-dialog[open] {
     display: flex;
+}
+
+.room-gallery {
+    padding: 110px 6vw;
+    background: var(--cream);
+}
+
+.room-gallery h2 {
+    margin: .5rem 0 40px;
+    color: var(--green);
+    font-size: clamp(2.7rem, 6.2vw, 5.8rem);
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -.045em;
+}
+
+.room-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.room-card {
+    padding: 0;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--green);
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.room-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.room-card__body {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.room-card__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.room-card__link {
+    font-size: .75rem;
+}
+
+.room-card:hover {
+    border-color: var(--green);
+}
+
+.room-card:focus-visible,
+.photo-dialog button:focus-visible {
+    outline: 3px solid var(--sand);
+    outline-offset: 3px;
+}
+
+#photo-dialog {
+    width: min(94vw, 1100px);
+    height: fit-content;
+    max-height: 94dvh;
+    margin: auto;
+    padding: 16px;
+    border: 0;
+    border-radius: 12px;
+    background: #111;
+    color: #fff;
+    overflow: auto;
+}
+
+.photo-dialog__header,
+.photo-dialog__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.photo-dialog__header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.photo-dialog button {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.photo-dialog__stage {
+    margin: 12px 0;
+    height: min(65dvh, 650px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 900px) {
+    .room-gallery__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .room-gallery {
+        padding: 76px 20px;
+    }
+
+    .room-gallery h2 {
+        font-size: 2.65rem;
+    }
+
+    .room-gallery__grid {
+        gap: 12px;
+    }
+
+    .room-card__body {
+        padding: 14px;
+    }
+
+    .room-card__title {
+        font-size: .9rem;
+    }
+
+    .room-card__link {
+        font-size: .65rem;
+    }
 }

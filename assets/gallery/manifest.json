@@ -1,0 +1,532 @@
+[
+  {
+    "id": "standard",
+    "title": "Standart",
+    "cover": "assets/gallery/standard/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/standard/01.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/02.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-1.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/03.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-2.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/04.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-3.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/05.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-4.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/06.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-5.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/07.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-6.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/08.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-7.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/09.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-9.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/10.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-15.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/11.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-16.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/12.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-17.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/13.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-21.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/14.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-8.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/15.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-14.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/16.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-18.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/17.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-22.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/18.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-13.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/19.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-19.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/20.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-11.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/21.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-10.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/22.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-12.jpeg"
+      },
+      {
+        "src": "assets/gallery/standard/23.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "image-02-10-26-10-03-20.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "junior-suite",
+    "title": "Junior suite",
+    "cover": "assets/gallery/junior-suite/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/junior-suite/01.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06441.JPG"
+      },
+      {
+        "src": "assets/gallery/junior-suite/02.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06450.JPG"
+      },
+      {
+        "src": "assets/gallery/junior-suite/03.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06455.JPG"
+      },
+      {
+        "src": "assets/gallery/junior-suite/04.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06462.JPG"
+      },
+      {
+        "src": "assets/gallery/junior-suite/05.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06467.JPG"
+      }
+    ]
+  },
+  {
+    "id": "penthouse",
+    "title": "Pernthouse",
+    "cover": "assets/gallery/penthouse/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/penthouse/01.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "FO4B3237-HDR.jpg"
+      },
+      {
+        "src": "assets/gallery/penthouse/02.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "FO4B3240-HDR.jpg"
+      },
+      {
+        "src": "assets/gallery/penthouse/03.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "FO4B3246-HDR.jpg"
+      },
+      {
+        "src": "assets/gallery/penthouse/04.webp",
+        "width": 1600,
+        "height": 1068,
+        "original": "DSC_2035.jpg"
+      },
+      {
+        "src": "assets/gallery/penthouse/05.webp",
+        "width": 1600,
+        "height": 1068,
+        "original": "DSC_2051.jpg"
+      }
+    ]
+  },
+  {
+    "id": "spa-residence",
+    "title": "SPA Residence",
+    "cover": "assets/gallery/spa-residence/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/spa-residence/01.webp",
+        "width": 1600,
+        "height": 900,
+        "original": "127A8876.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/02.webp",
+        "width": 785,
+        "height": 1200,
+        "original": "0226_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/03.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0233_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/04.webp",
+        "width": 1200,
+        "height": 857,
+        "original": "0235_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/05.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0258_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/06.webp",
+        "width": 1200,
+        "height": 857,
+        "original": "0266_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/07.webp",
+        "width": 812,
+        "height": 545,
+        "original": "iwxofc0t2smuw243kaem1072vdnhsrz4.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/08.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0200_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/09.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0201_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/10.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0202_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/11.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0208_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/12.webp",
+        "width": 1200,
+        "height": 814,
+        "original": "0220_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/13.webp",
+        "width": 1200,
+        "height": 812,
+        "original": "0221_fish_spa.jpg"
+      },
+      {
+        "src": "assets/gallery/spa-residence/14.webp",
+        "width": 1200,
+        "height": 829,
+        "original": "0224_fish_spa.jpg"
+      }
+    ]
+  },
+  {
+    "id": "fs-plus",
+    "title": "FS +",
+    "cover": "assets/gallery/fs-plus/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/fs-plus/01.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06266.JPG"
+      },
+      {
+        "src": "assets/gallery/fs-plus/02.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06267.JPG"
+      },
+      {
+        "src": "assets/gallery/fs-plus/03.webp",
+        "width": 636,
+        "height": 953,
+        "original": "DSC07719_VSCO.JPG"
+      },
+      {
+        "src": "assets/gallery/fs-plus/04.webp",
+        "width": 636,
+        "height": 953,
+        "original": "DSC07722_VSCO.JPG"
+      },
+      {
+        "src": "assets/gallery/fs-plus/05.webp",
+        "width": 636,
+        "height": 953,
+        "original": "DSC07750_VSCO.JPG"
+      },
+      {
+        "src": "assets/gallery/fs-plus/06.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "DSC06275.JPG"
+      }
+    ]
+  },
+  {
+    "id": "gfs-plus",
+    "title": "GFS+",
+    "cover": "assets/gallery/gfs-plus/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/gfs-plus/01.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0306_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/02.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0361_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/03.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0362_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/04.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0314_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/05.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0315_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/06.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0316_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/07.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0318_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/08.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0329_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/09.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0341_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/10.webp",
+        "width": 800,
+        "height": 1200,
+        "original": "0346_fish_36.jpg"
+      },
+      {
+        "src": "assets/gallery/gfs-plus/11.webp",
+        "width": 1200,
+        "height": 800,
+        "original": "0350_fish_36.jpg"
+      }
+    ]
+  },
+  {
+    "id": "family-suite",
+    "title": "Family suite",
+    "cover": "assets/gallery/family-suite/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/family-suite/01.webp",
+        "width": 1320,
+        "height": 880,
+        "original": "Screenshot_1.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/02.webp",
+        "width": 1322,
+        "height": 883,
+        "original": "Screenshot_2.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/03.webp",
+        "width": 1320,
+        "height": 904,
+        "original": "Screenshot_3.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/04.webp",
+        "width": 1320,
+        "height": 882,
+        "original": "Screenshot_4.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/05.webp",
+        "width": 1319,
+        "height": 876,
+        "original": "Screenshot_5.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/06.webp",
+        "width": 1320,
+        "height": 927,
+        "original": "Screenshot_6.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/07.webp",
+        "width": 646,
+        "height": 928,
+        "original": "Screenshot_7.jpg"
+      },
+      {
+        "src": "assets/gallery/family-suite/08.webp",
+        "width": 644,
+        "height": 927,
+        "original": "Screenshot_8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "gfx",
+    "title": "GFX",
+    "cover": "assets/gallery/gfx/cover.webp",
+    "photos": [
+      {
+        "src": "assets/gallery/gfx/01.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190462186943-9227eec0-c09b-46fd-861c-e0d0654c9628.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/02.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190464169660-ae2e6251-2f0c-4e86-80fd-33d3b9c5e254.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/03.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190469600403-c783b735-5af2-49fe-8fc4-62960bbff004.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/04.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190470845788-f560b416-471d-435f-a105-c064e959bedd.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/05.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190474587018-d0295c1f-9aa2-4375-9716-dc32d2590e9a.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/06.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639146190475032535-c5933035-9e99-48fd-bc59-6bdac31fcb65.jpg"
+      },
+      {
+        "src": "assets/gallery/gfx/07.webp",
+        "width": 1600,
+        "height": 1067,
+        "original": "639187661877460700-9bda573d-6833-4264-b70b-1cfefb6aa97f.jpg"
+      }
+    ]
+  }
+]

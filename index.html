@@ -135,6 +135,13 @@
       </div>
     </section>
 
+    <section class="room-gallery" id="rooms">
+      <p class="section-number">РАЗМЕЩЕНИЕ</p>
+      <h2>Номера и коттеджи</h2>
+      <div class="room-gallery__grid" id="room-gallery-grid"></div>
+      <p id="gallery-status" role="status"></p>
+    </section>
+
     <section class="materials">
       <p class="section-number">06 / МАТЕРИАЛЫ</p>
       <h2>Материалы для партнёров</h2>
@@ -241,6 +248,24 @@
 
     <iframe id="hotel-video" title="Видео Fish Point" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </dialog>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-label="Фотографии размещения">
+    <div class="photo-dialog__header">
+      <h3 id="photo-title"></h3>
+      <button id="photo-close" type="button" aria-label="Закрыть">×</button>
+    </div>
+
+    <div class="photo-dialog__stage">
+      <img id="gallery-photo" alt="">
+    </div>
+
+    <div class="photo-dialog__controls">
+      <button id="photo-prev" type="button" aria-label="Предыдущее фото">←</button>
+      <span id="photo-counter" aria-live="polite"></span>
+      <button id="photo-next" type="button" aria-label="Следующее фото">→</button>
+    </div>
+  </dialog>
+
   <script src="assets/app.js"></script>
   <script>(function () { function c() { var b = a.contentDocument || (a.contentWindow && a.contentWindow.document); if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'a42aebf78f468598',t:'MTc5MDY4NDIxNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
 </body>
