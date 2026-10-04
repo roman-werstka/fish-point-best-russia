@@ -31,15 +31,11 @@
         <h1>Приватный загородный отдых рядом с Москвой</h1>
         <p>43 коттеджа из финской сосны, русская баня на дровах, SPA, рыбалка и два ресторана в одной локации.</p>
       </div>
-      <button class="play" type="button" data-modal="video" data-video="cb40ea1c45ad255a93049a2e8dff2ba9"
+      <button class="play" type="button" data-modal="video" data-video="441ada17934de348abb187ee6662b94f"
         aria-label="Посмотреть видео о Fish Point">
         <span>▶</span>
         <strong>Смотреть фильм</strong>
         <small>40–60 секунд</small>
-      </button>
-      <button class="play play-two" type="button" data-modal="video" data-video="2bfd64a83dedebb76fef567e5fb687a0"
-        aria-label="Посмотреть ещё видео о Fish Point">
-        Смотреть второй ролик
       </button>
     </section>
 
@@ -95,7 +91,12 @@
     </section>
 
     <section class="feature feature-image-left">
-      <img src="assets/SPA tea.webp" alt="Чаепитие после SPA-ритуала">
+      <div class="gastronomy-photos">
+        <img src="assets/gastronomy-breakfast.webp" alt="Завтрак на веранде Fish Point" loading="lazy" width="1200"
+          height="1800">
+        <img src="assets/gastronomy-dishes.webp" alt="Блюда на столе на веранде Fish Point" loading="lazy" width="1200"
+          height="1800">
+      </div>
       <div class="feature-copy">
         <p class="section-number">04 / ГАСТРОНОМИЯ</p>
         <h2>Два ресторана</h2>
@@ -130,20 +131,59 @@
     <section class="pet">
       <img src="assets/с питомцем.webp" alt="Отдых с собакой в Fish Point">
       <div>
-        <p class="section-number">PET-FRIENDLY</p>
+        <p class="section-number">06 / PET-FRIENDLY</p>
         <h2>Можно приехать<br>с собакой</h2>
       </div>
     </section>
 
+    <section class="video-gallery" aria-labelledby="video-gallery-title">
+      <p class="section-number">07 / ВИДЕО</p>
+      <h2 id="video-gallery-title">Познакомьтесь с Fish Point</h2>
+
+      <div class="video-gallery__track" id="video-track">
+        <button class="video-card" type="button" data-modal="video" data-video="441ada17934de348abb187ee6662b94f">
+          <span class="video-card__cover">
+            <img src="assets/video-cottage.webp" alt="" loading="lazy">
+            <span class="video-card__play" aria-hidden="true">▶</span>
+          </span>
+          <span class="video-card__title">Фильм о Fish Point</span>
+          <span class="video-card__link">Смотреть видео ↗</span>
+        </button>
+
+        <button class="video-card" type="button" data-modal="video" data-video="8d909ededa9de1bf1be4e5fa16268163">
+          <span class="video-card__cover">
+            <img src="assets/video-fishing.webp" alt="" loading="lazy">
+            <span class="video-card__play" aria-hidden="true">▶</span>
+          </span>
+          <span class="video-card__title">Fish Point — Рыбалка</span>
+          <span class="video-card__link">Смотреть видео ↗</span>
+        </button>
+
+        <button class="video-card" type="button" data-modal="video" data-video="cf594d3f0dc353bc6e26f756962dce6e">
+          <span class="video-card__cover">
+            <img src="assets/video-ecofarm.webp" alt="" loading="lazy">
+            <span class="video-card__play" aria-hidden="true">▶</span>
+          </span>
+          <span class="video-card__title">Fish Point — Эко Ферма</span>
+          <span class="video-card__link">Смотреть видео ↗</span>
+        </button>
+      </div>
+
+      <div class="video-gallery__controls">
+        <button type="button" id="video-prev" aria-label="Предыдущее видео" aria-controls="video-track">←</button>
+        <button type="button" id="video-next" aria-label="Следующее видео" aria-controls="video-track">→</button>
+      </div>
+    </section>
+
     <section class="room-gallery" id="rooms">
-      <p class="section-number">РАЗМЕЩЕНИЕ</p>
+      <p class="section-number">08 / РАЗМЕЩЕНИЕ</p>
       <h2>Номера и коттеджи</h2>
       <div class="room-gallery__grid" id="room-gallery-grid"></div>
       <p id="gallery-status" role="status"></p>
     </section>
 
     <section class="materials">
-      <p class="section-number">06 / МАТЕРИАЛЫ</p>
+      <p class="section-number">09 / МАТЕРИАЛЫ</p>
       <h2>Материалы для партнёров</h2>
       <div class="material-links">
         <a href="assets/presentations/Fish_Point_Best_Russia_2026.pptx" rel="noopener">
@@ -210,7 +250,7 @@
     </section>
 
     <section class="request" id="request">
-      <p class="section-number">07 / СЛЕДУЮЩИЙ ШАГ</p>
+      <p class="section-number">10 / СЛЕДУЮЩИЙ ШАГ</p>
       <h2>Обсудить запрос</h2>
       <p>Оставьте контакт — Светлана свяжется с вами и подготовит предложение под задачу.</p>
       <form id="lead-form">

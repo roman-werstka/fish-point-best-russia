@@ -174,3 +174,25 @@ dialog.addEventListener('close', () => {
         console.error(error);
     }
 })();
+
+const videoTrack = document.getElementById('video-track');
+
+function scrollVideos(direction) {
+    const card = videoTrack.querySelector('.video-card');
+    const gap = parseFloat(getComputedStyle(videoTrack).gap) || 0;
+
+    videoTrack.scrollBy({
+        left: direction * (card.getBoundingClientRect().width + gap),
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            ? 'auto'
+            : 'smooth'
+    });
+}
+
+document.getElementById('video-prev').addEventListener('click', () => {
+    scrollVideos(-1);
+});
+
+document.getElementById('video-next').addEventListener('click', () => {
+    scrollVideos(1);
+});

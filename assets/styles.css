@@ -133,7 +133,7 @@ img {
 
 .play {
     position: absolute;
-    right: 17vw;
+    right: 6vw;
     bottom: 52px;
     border: 1px solid rgba(255, 255, 255, .6);
     border-radius: 50%;
@@ -148,10 +148,6 @@ img {
     justify-content: center;
     cursor: pointer;
     transition: .25s
-}
-
-.play-two {
-    right: 6vw;
 }
 
 .play:hover {
@@ -697,14 +693,10 @@ dialog::backdrop {
     }
 
     .play {
-        right: 135px;
+        right: 20px;
         bottom: 24px;
         width: 108px;
         height: 108px
-    }
-
-    .play-two {
-        right: 20px;
     }
 
     .actions {
@@ -857,6 +849,137 @@ dialog::backdrop {
     display: flex;
 }
 
+.video-gallery {
+    padding: 110px 6vw;
+    background: #fff;
+}
+
+.video-gallery h2 {
+    margin: .5rem 0 40px;
+    color: var(--green);
+    font-size: clamp(2.7rem, 6.2vw, 5.8rem);
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -.045em;
+}
+
+.video-gallery__track {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.video-card {
+    min-width: 0;
+    padding: 0;
+    border: 1px solid var(--line);
+    background: var(--cream);
+    color: var(--green);
+    text-align: left;
+    cursor: pointer;
+}
+
+.video-card__cover {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.video-card__cover img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.video-card__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 50%;
+    background: rgba(6, 61, 52, .7);
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.video-card__title,
+.video-card__link {
+    display: block;
+    padding: 0 20px;
+}
+
+.video-card__title {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.video-card__link {
+    margin: 10px 0 20px;
+    font-size: .75rem;
+}
+
+.video-card:hover {
+    border-color: var(--green);
+}
+
+.video-gallery__controls {
+    display: none;
+}
+
+.video-card:focus-visible,
+.video-gallery__controls button:focus-visible {
+    outline: 3px solid var(--sand);
+    outline-offset: 3px;
+}
+
+@media (max-width: 620px) {
+    .video-gallery {
+        padding: 76px 20px;
+    }
+
+    .video-gallery h2 {
+        font-size: 2.65rem;
+    }
+
+    .video-gallery__track {
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding-inline: 4px;
+        padding: 4px 4px 16px;
+    }
+
+    .video-card {
+        flex: 0 0 86%;
+        scroll-snap-align: start;
+    }
+
+    .video-gallery__controls {
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .video-gallery__controls button {
+        width: 44px;
+        height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        background: transparent;
+        color: var(--green);
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+}
+
 .room-gallery {
     padding: 110px 6vw;
     background: var(--cream);
@@ -1000,5 +1123,26 @@ dialog::backdrop {
 
     .room-card__link {
         font-size: .65rem;
+    }
+}
+
+.gastronomy-photos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    align-self: center;
+    min-width: 0;
+}
+
+.gastronomy-photos img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 900px) {
+    .gastronomy-photos {
+        width: 100%;
+        max-width: 720px;
+        margin-inline: auto;
     }
 }
