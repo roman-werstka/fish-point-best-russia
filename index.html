@@ -31,7 +31,7 @@
         <h1>Приватный загородный отдых рядом с Москвой</h1>
         <p>43 коттеджа из финской сосны, русская баня на дровах, SPA, рыбалка и два ресторана в одной локации.</p>
       </div>
-      <button class="play" type="button" data-modal="video" data-video="441ada17934de348abb187ee6662b94f"
+      <button class="play" type="button" data-modal="video" data-video="assets/videos/fish-point-main.mp4"
         aria-label="Посмотреть видео о Fish Point">
         <span>▶</span>
         <strong>Смотреть фильм</strong>
@@ -141,7 +141,7 @@
       <h2 id="video-gallery-title">Познакомьтесь с Fish Point</h2>
 
       <div class="video-gallery__track" id="video-track">
-        <button class="video-card" type="button" data-modal="video" data-video="441ada17934de348abb187ee6662b94f">
+        <button class="video-card" type="button" data-modal="video" data-video="assets/videos/fish-point-main.mp4">
           <span class="video-card__cover">
             <img src="assets/video-cottage.webp" alt="" loading="lazy">
             <span class="video-card__play" aria-hidden="true">▶</span>
@@ -150,7 +150,7 @@
           <span class="video-card__link">Смотреть видео ↗</span>
         </button>
 
-        <button class="video-card" type="button" data-modal="video" data-video="8d909ededa9de1bf1be4e5fa16268163">
+        <button class="video-card" type="button" data-modal="video" data-video="assets/videos/fish-point-fishing.mp4">
           <span class="video-card__cover">
             <img src="assets/video-fishing.webp" alt="" loading="lazy">
             <span class="video-card__play" aria-hidden="true">▶</span>
@@ -159,7 +159,7 @@
           <span class="video-card__link">Смотреть видео ↗</span>
         </button>
 
-        <button class="video-card" type="button" data-modal="video" data-video="cf594d3f0dc353bc6e26f756962dce6e">
+        <button class="video-card" type="button" data-modal="video" data-video="assets/videos/fish-point-ecofarm.mp4">
           <span class="video-card__cover">
             <img src="assets/video-ecofarm.webp" alt="" loading="lazy">
             <span class="video-card__play" aria-hidden="true">▶</span>
@@ -286,7 +286,7 @@
   <dialog id="video-dialog">
     <button class="close" type="button" aria-label="Закрыть">×</button>
 
-    <iframe id="hotel-video" title="Видео Fish Point" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <video id="hotel-video" controls playsinline preload="none"></video>
   </dialog>
 
   <dialog class="photo-dialog" id="photo-dialog" aria-label="Фотографии размещения">

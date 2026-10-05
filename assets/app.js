@@ -12,12 +12,13 @@ const hotelVideo = document.getElementById('hotel-video');
 
 document.querySelectorAll('[data-modal="video"]').forEach(button => {
     button.addEventListener('click', () => {
-        const videoId = button.dataset.video;
-
-        hotelVideo.src =
-    `https://rutube.ru/play/embed/${videoId}/`;
+        hotelVideo.src = button.dataset.video;
+        hotelVideo.load();
 
         dialog.showModal();
+        hotelVideo.play().catch(() => {
+            // Можно запустить видео кнопкой плеера.
+        });
     });
 });
 
@@ -26,13 +27,24 @@ dialog.querySelector('.close').addEventListener('click', () => {
 });
 
 dialog.addEventListener('click', event => {
-    if (event.target === dialog) {
+    if (event.target !== dialog) return;
+
+    const bounds = dialog.getBoundingClientRect();
+
+    if (
+        event.clientX < bounds.left ||
+        event.clientX > bounds.right ||
+        event.clientY < bounds.top ||
+        event.clientY > bounds.bottom
+    ) {
         dialog.close();
     }
 });
 
 dialog.addEventListener('close', () => {
+    hotelVideo.pause();
     hotelVideo.removeAttribute('src');
+    hotelVideo.load();
 });
 
 (async function initRoomGallery() {

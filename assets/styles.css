@@ -829,6 +829,7 @@ dialog::backdrop {
     aspect-ratio: 16 / 9;
     border: 0;
     background: #000;
+    object-fit: contain;
 }
 
 #video-dialog .close {
