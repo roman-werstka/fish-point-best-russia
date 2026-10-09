@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Вагова;Елена;;;
+FN:Вагова Елена
+ORG:Fish Point
+TITLE:Управляющий ресторанами
+TEL;TYPE=WORK,CELL:+79651238749
+EMAIL;TYPE=INTERNET,WORK:e.vagova@fishpointrest.ru
+URL:https://fishpointrest.ru/
+END:VCARD
